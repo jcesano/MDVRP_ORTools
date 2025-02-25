@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{03F500B1-2218-38A8-94A0-1B60160644E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7759DC2B-330F-300B-8BC8-4F75EFDF4DF4} = {7759DC2B-330F-300B-8BC8-4F75EFDF4DF4}
+		{C955B952-7159-39FB-8A88-3E5BB92219EC} = {C955B952-7159-39FB-8A88-3E5BB92219EC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{4C793103-BAF4-3C37-AD4E-15002E545E3D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{03F500B1-2218-38A8-94A0-1B60160644E9} = {03F500B1-2218-38A8-94A0-1B60160644E9}
+		{7759DC2B-330F-300B-8BC8-4F75EFDF4DF4} = {7759DC2B-330F-300B-8BC8-4F75EFDF4DF4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RUN_TESTS", "RUN_TESTS.vcxproj", "{125AF05F-0410-381B-BD46-B7C4CE9813A5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7759DC2B-330F-300B-8BC8-4F75EFDF4DF4} = {7759DC2B-330F-300B-8BC8-4F75EFDF4DF4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{7759DC2B-330F-300B-8BC8-4F75EFDF4DF4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vrp", "vrp.vcxproj", "{C955B952-7159-39FB-8A88-3E5BB92219EC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7759DC2B-330F-300B-8BC8-4F75EFDF4DF4} = {7759DC2B-330F-300B-8BC8-4F75EFDF4DF4}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Header Files", "Header Files", "{B65D8FC3-F06E-4858-A7BF-B72429071740}"
+	ProjectSection(SolutionItems) = preProject
+		ClarkWrightHandler.h = ClarkWrightHandler.h
+		Cluster.h = Cluster.h
+		DecodedFrogLeapSolution.h = DecodedFrogLeapSolution.h
+		DistanceTable.h = DistanceTable.h
+		DistVect.h = DistVect.h
+		FeasibleSolCol.h = FeasibleSolCol.h
+		FeasibleSolution.h = FeasibleSolution.h
+		FeasSolNode.h = FeasSolNode.h
+		FloatDistanceTable.h = FloatDistanceTable.h
+		FrogLeapController.h = FrogLeapController.h
+		FrogLeapSolution.h = FrogLeapSolution.h
+		FrogObject.h = FrogObject.h
+		FrogObjectCol.h = FrogObjectCol.h
+		FrogObjNode.h = FrogObjNode.h
+		Graph.h = Graph.h
+		IndexList.h = IndexList.h
+		IndexListNode.h = IndexListNode.h
+		MDVRP_JC.h = MDVRP_JC.h
+		Pair.h = Pair.h
+		SolutionData.h = SolutionData.h
+		stdafx.h = stdafx.h
+		targetver.h = targetver.h
+		TestCaseObj.h = TestCaseObj.h
+		TspLibEuc2D.h = TspLibEuc2D.h
+		Vehicle.h = Vehicle.h
+		Vertex.h = Vertex.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		MinSizeRel|x64 = MinSizeRel|x64
+		Release|x64 = Release|x64
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03F500B1-2218-38A8-94A0-1B60160644E9}.Debug|x64.ActiveCfg = Debug|x64
+		{03F500B1-2218-38A8-94A0-1B60160644E9}.Debug|x64.Build.0 = Debug|x64
+		{03F500B1-2218-38A8-94A0-1B60160644E9}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{03F500B1-2218-38A8-94A0-1B60160644E9}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{03F500B1-2218-38A8-94A0-1B60160644E9}.Release|x64.ActiveCfg = Release|x64
+		{03F500B1-2218-38A8-94A0-1B60160644E9}.Release|x64.Build.0 = Release|x64
+		{03F500B1-2218-38A8-94A0-1B60160644E9}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{03F500B1-2218-38A8-94A0-1B60160644E9}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{4C793103-BAF4-3C37-AD4E-15002E545E3D}.Debug|x64.ActiveCfg = Debug|x64
+		{4C793103-BAF4-3C37-AD4E-15002E545E3D}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{4C793103-BAF4-3C37-AD4E-15002E545E3D}.Release|x64.ActiveCfg = Release|x64
+		{4C793103-BAF4-3C37-AD4E-15002E545E3D}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{125AF05F-0410-381B-BD46-B7C4CE9813A5}.Debug|x64.ActiveCfg = Debug|x64
+		{125AF05F-0410-381B-BD46-B7C4CE9813A5}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{125AF05F-0410-381B-BD46-B7C4CE9813A5}.Release|x64.ActiveCfg = Release|x64
+		{125AF05F-0410-381B-BD46-B7C4CE9813A5}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{7759DC2B-330F-300B-8BC8-4F75EFDF4DF4}.Debug|x64.ActiveCfg = Debug|x64
+		{7759DC2B-330F-300B-8BC8-4F75EFDF4DF4}.Debug|x64.Build.0 = Debug|x64
+		{7759DC2B-330F-300B-8BC8-4F75EFDF4DF4}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{7759DC2B-330F-300B-8BC8-4F75EFDF4DF4}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{7759DC2B-330F-300B-8BC8-4F75EFDF4DF4}.Release|x64.ActiveCfg = Release|x64
+		{7759DC2B-330F-300B-8BC8-4F75EFDF4DF4}.Release|x64.Build.0 = Release|x64
+		{7759DC2B-330F-300B-8BC8-4F75EFDF4DF4}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{7759DC2B-330F-300B-8BC8-4F75EFDF4DF4}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{C955B952-7159-39FB-8A88-3E5BB92219EC}.Debug|x64.ActiveCfg = Debug|x64
+		{C955B952-7159-39FB-8A88-3E5BB92219EC}.Debug|x64.Build.0 = Debug|x64
+		{C955B952-7159-39FB-8A88-3E5BB92219EC}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{C955B952-7159-39FB-8A88-3E5BB92219EC}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{C955B952-7159-39FB-8A88-3E5BB92219EC}.Release|x64.ActiveCfg = Release|x64
+		{C955B952-7159-39FB-8A88-3E5BB92219EC}.Release|x64.Build.0 = Release|x64
+		{C955B952-7159-39FB-8A88-3E5BB92219EC}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{C955B952-7159-39FB-8A88-3E5BB92219EC}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B719E65-0EA1-3D8E-9D6F-DB3C41452772}
+	EndGlobalSection
+EndGlobal

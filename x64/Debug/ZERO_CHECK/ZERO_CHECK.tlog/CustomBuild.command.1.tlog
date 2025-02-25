@@ -1,0 +1,10 @@
+^C:\ORTOOLS\BUILD_TEST\CMAKEFILES\234F7209C8D37990C9BAE201F1CA964E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/OrTools/or-tools_x64_VisualStudio2022_cpp_v9.11.4210/examples/vrp -BC:/OrTools/build_test --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/OrTools/build_test/vrp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
