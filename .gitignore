@@ -1,0 +1,3 @@
+# Ignorar archivos de IntelliSense de Visual Studio
+.vs/
+*.ipch
