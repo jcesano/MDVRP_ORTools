@@ -2,6 +2,7 @@
 #include "DistanceTable.h"
 #include "DistVect.h"
 #include "Graph.h"
+#include <vector>
 
 // Allocates memory for adjacency list
 DistanceTable::DistanceTable(int vertexCount)
@@ -199,6 +200,26 @@ int DistanceTable::getNumberOfVertices()
 {
 	return this->V;
 }
+
+//std::vector<std::vector<int>> DistanceTable::ConvertDistanceTableToMatrix(DistanceTable* dt)
+//{
+//	int numNodes = dt->getNumberOfVertices();
+//	std::vector<std::vector<int>> distance_matrix(numNodes, std::vector<int>(numNodes, 0));
+//
+//	for (int i = 0; i < numNodes; i++) {
+//		for (int j = 0; j < numNodes; j++) {
+//			float distance = dt->getEdge(i, j);
+//			if (distance == dt->NO_ADJ) {
+//				distance_matrix[i][j] = 999999;  // Valor alto para representar "sin conexión"
+//			}
+//			else {
+//				distance_matrix[i][j] = static_cast<int>(distance); // OR-Tools usa enteros
+//			}
+//		}
+//	}
+//
+//	return distance_matrix;
+//}
 
 void DistanceTable::printDistanceTable()
 {

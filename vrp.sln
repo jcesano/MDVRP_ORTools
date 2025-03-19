@@ -32,6 +32,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Header Files", "Header File
 		ClarkWrightHandler.h = ClarkWrightHandler.h
 		Cluster.h = Cluster.h
 		DecodedFrogLeapSolution.h = DecodedFrogLeapSolution.h
+		DataModel.h = DataModel.h
 		DistanceTable.h = DistanceTable.h
 		DistVect.h = DistVect.h
 		FeasibleSolCol.h = FeasibleSolCol.h
@@ -56,6 +57,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Header Files", "Header File
 		Vehicle.h = Vehicle.h
 		Vertex.h = Vertex.h
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7B9B48F0-8BEB-4678-90EC-64191746A3D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

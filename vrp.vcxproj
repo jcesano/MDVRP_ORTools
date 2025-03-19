@@ -379,6 +379,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="IndexListNode.cpp" />
     <ClCompile Include="Pair.cpp" />
     <ClCompile Include="SolutionData.cpp" />
+    <ClCompile Include="DataModel.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>

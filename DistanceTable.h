@@ -1,6 +1,9 @@
 #ifndef DISTANCETABLE_H_   /* Include guard */
 #define DISTANCETABLE_H_
 
+#include <vector>
+#include "DataModel.h"
+
 class DistVect;
 class Graph;
 
@@ -44,6 +47,8 @@ public:
 	bool allEdgesFilled();
 
 	int getNumberOfVertices();
+
+	//std::vector<std::vector<int>> ConvertDistanceTableToMatrix(DistanceTable* dt);
 };
 
 #endif

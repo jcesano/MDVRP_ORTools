@@ -17,6 +17,7 @@ C:\OrTools\build_test\IndexList.cpp;C:\OrTools\build_test\vrp.dir\Release\IndexL
 C:\OrTools\build_test\IndexListNode.cpp;C:\OrTools\build_test\vrp.dir\Release\IndexListNode.obj
 C:\OrTools\build_test\Pair.cpp;C:\OrTools\build_test\vrp.dir\Release\Pair.obj
 C:\OrTools\build_test\SolutionData.cpp;C:\OrTools\build_test\vrp.dir\Release\SolutionData.obj
+C:\OrTools\build_test\DataModel.cpp;C:\OrTools\build_test\vrp.dir\Release\DataModel.obj
 C:\OrTools\build_test\stdafx.cpp;C:\OrTools\build_test\vrp.dir\Release\stdafx.obj
 C:\OrTools\build_test\TestCaseObj.cpp;C:\OrTools\build_test\vrp.dir\Release\TestCaseObj.obj
 C:\OrTools\build_test\TspLibEuc2D.cpp;C:\OrTools\build_test\vrp.dir\Release\TspLibEuc2D.obj
